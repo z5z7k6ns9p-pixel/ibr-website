@@ -7,74 +7,66 @@
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0a0a0a;
-  color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #000;
+    color: #fff;
 }
 
 header {
-  text-align: center;
-  padding: 40px 20px;
-  background: linear-gradient(180deg, #000, #111);
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header img {
+    max-width: 300px;
 }
 
 h1 {
-  font-size: 48px;
-  color: #00aaff;
-  margin: 0;
-}
-
-.subtitle {
-  margin-top: 10px;
-  font-size: 18px;
-  color: #ccc;
-}
-
-.hero {
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.hero p {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-
-.btn {
-  background: #00aaff;
-  color: white;
-  padding: 15px 25px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
+    margin-top: 10px;
+    color: #1da1f2;
 }
 
 .section {
-  padding: 50px 20px;
-  text-align: center;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
 }
 
-.card {
-  background: #111;
-  padding: 20px;
-  border-radius: 10px;
-  width: 250px;
+.service-box {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    border: 1px solid #1da1f2;
+}
+
+.contact {
+    background: #111;
+}
+
+a.button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 20px;
+    background: #1da1f2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 footer {
-  text-align: center;
-  padding: 30px;
-  background: #000;
-  font-size: 14px;
-  color: #aaa;
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    font-size: 14px;
+    color: #777;
 }
 </style>
 
@@ -82,35 +74,32 @@ footer {
 <body>
 
 <header>
-  <h1>IBR</h1>
-  <div class="subtitle">Independent Benz Repairs</div>
+    <img src="logo.png" alt="IBR Logo">
+    <h1>Independent Benz Repairs</h1>
+    <p>Mercedes Specialists | Diagnostics | Repairs</p>
 </header>
 
-<div class="hero">
-  <p>Mercedes Specialist | Diagnostics | Servicing | Repairs</p>
-  <a class="btn" href="tel:07384448470">Call Now</a>
+<div class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">Diagnostics</div>
+        <div class="service-box">Engine Repairs</div>
+        <div class="service-box">Gearbox Repairs</div>
+        <div class="service-box">Servicing</div>
+        <div class="service-box">MOT Prep</div>
+    </div>
 </div>
 
-<div class="section">
-  <h2>Our Services</h2>
-  <div class="services">
-    <div class="card">Diagnostics</div>
-    <div class="card">Servicing</div>
-    <div class="card">Engine Repairs</div>
-    <div class="card">Gearbox Repairs</div>
-    <div class="card">MOT Prep</div>
-  </div>
-</div>
-
-<div class="section">
-  <h2>Contact</h2>
-  <p>📞 07384 448470</p>
-  <p>📍 87-89 Forncett Street, Sheffield, S4 7QG</p>
-  <p>🕘 Mon–Sat 9am–6pm</p>
+<div class="section contact">
+    <h2>Contact Us</h2>
+    <p>📞 07384 448470</p>
+    <p>📍 87–89 Forncett Street, Sheffield, S4 7QG</p>
+    <p>🕒 Mon–Sat 9am–6pm</p>
+    <a class="button" href="tel:07384448470">Call Now</a>
 </div>
 
 <footer>
-  © IBR Independent Benz Repairs
+    © 2026 Independent Benz Repairs
 </footer>
 
 </body>
