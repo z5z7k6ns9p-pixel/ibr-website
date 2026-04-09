@@ -3,80 +3,114 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>IBR | Independent Benz Repairs</title>
+<title>IBR - Independent Benz Repairs</title>
 
 <style>
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #000;
-    color: #fff;
-    text-align: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
 }
 
 header {
-    padding: 100px 20px;
-    background: linear-gradient(#000, #111);
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(180deg, #000, #111);
 }
 
 h1 {
-    font-size: 60px;
-    color: #1e90ff;
-    margin: 0;
+  font-size: 48px;
+  color: #00aaff;
+  margin: 0;
 }
 
-p {
-    margin: 10px 0;
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
+  background: #00aaff;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
-.blue {
-    background: #1e90ff;
-    color: white;
+.section {
+  padding: 50px 20px;
+  text-align: center;
 }
 
-section {
-    padding: 60px 20px;
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
 }
 
 footer {
-    background: #111;
-    padding: 20px;
+  text-align: center;
+  padding: 30px;
+  background: #000;
+  font-size: 14px;
+  color: #aaa;
 }
 </style>
-</head>
 
+</head>
 <body>
 
 <header>
-    <h1>IBR</h1>
-    <p>Independent Benz Repairs</p>
-    <p>Mercedes Specialist | Diagnostics | Servicing | Repairs</p>
-
-    <a href="tel:07384448470" class="btn blue">Call Now</a>
+  <h1>IBR</h1>
+  <div class="subtitle">Independent Benz Repairs</div>
 </header>
 
-<section>
-    <h2>Our Services</h2>
-    <p>Diagnostics | Servicing | Engine Repairs | Gearbox Repairs | MOT Prep</p>
-</section>
+<div class="hero">
+  <p>Mercedes Specialist | Diagnostics | Servicing | Repairs</p>
+  <a class="btn" href="tel:07384448470">Call Now</a>
+</div>
 
-<section>
-    <h2>Contact</h2>
-    <p>📞 07384 448470</p>
-    <p>📍 87–89 Forncett Street, Sheffield, S4 7QG</p>
-    <p>🕒 Mon–Sat 9am–6pm</p>
-</section>
+<div class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Diagnostics</div>
+    <div class="card">Servicing</div>
+    <div class="card">Engine Repairs</div>
+    <div class="card">Gearbox Repairs</div>
+    <div class="card">MOT Prep</div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Contact</h2>
+  <p>📞 07384 448470</p>
+  <p>📍 87-89 Forncett Street, Sheffield, S4 7QG</p>
+  <p>🕘 Mon–Sat 9am–6pm</p>
+</div>
 
 <footer>
-    <p>IBR - Independent Benz Repairs</p>
+  © IBR Independent Benz Repairs
 </footer>
 
 </body>
